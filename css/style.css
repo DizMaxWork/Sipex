@@ -1,0 +1,65 @@
+body{
+    font-family: Unbounded;
+    color: #333333;
+}
+.box-shadow{
+    background: #FFFFFF;
+    box-shadow: 4px 9px 26px rgba(0, 0, 0, 0.15);
+    border-radius: 36px;
+}
+.card-1{
+    background: #FFFFFF;
+    border-radius: 32px;
+}
+.card-2{
+    border: 1px solid #B1B1B1;
+    border-radius: 32px;    
+}
+.btn-1{
+    background: #FF8A00;
+    border-radius: 24px;
+}
+.btn-2{
+    border-radius: 24px;
+    border: 1px solid #FF8A00;
+}
+.bg-1{
+    background: #EFEFEF;
+    border-radius: 33px;
+}
+.card-slide{
+    width: 416px;
+}
+.slider {
+    position: relative;
+    padding: 48px 0 0 0;
+}
+.slider .slick-arrow{
+    position: absolute;
+    top: 0;
+    margin: -15px 0 0 0;
+    z-index: 2;
+    font-size: 0;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    padding: 4px;
+}
+.prev{
+    left: 90%;
+    border: 1px solid #EFEFEF;
+    border-radius: 10px;
+    transition: ease 0.5s;
+}
+.prev:hover{
+    background: #EFEFEF;
+}
+.next{
+    left: 93%;
+    border: 1px solid #EFEFEF;
+    border-radius: 10px;    
+    transition: ease 0.5s;
+}
+.next:hover{
+    background: #EFEFEF;
+}
