@@ -23,6 +23,10 @@ body{
     border-radius: 24px;
     border: 1px solid #FF8A00;
 }
+.btn-3{
+    border-radius: 32px;
+    border: 1px solid #FF8A00;
+}
 .bg-1{
     background: #EFEFEF;
     border-radius: 33px;
@@ -62,4 +66,20 @@ body{
 }
 .next:hover{
     background: #EFEFEF;
+}
+.slider-item{
+    height: 624px;
+}
+.slider-item-2{
+    width: 88px;
+    height: 72px;
+}
+.slider-nav{
+    padding-top: 16px;
+}
+.slider-style{
+    width: 900px;
+}
+.slick-slide{
+    padding-right: 21px;
 }
