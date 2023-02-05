@@ -92,3 +92,13 @@ body{
     background-color: #FBFBFB;
     z-index: 1;
 }
+.contacts__block {
+    width: 15.625rem;
+    top: -1rem;
+    right: 0;
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-box-shadow: 0 10px 10px rgb(0 0 0 / 5%);
+    box-shadow: 0 10px 10px rgb(0 0 0 / 5%);
+}

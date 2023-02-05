@@ -43,4 +43,6 @@ $(".mobile-menu__close").on("click", function(){
         //анимируем переход на расстояние - top за 1500 мс
         $('body,html').animate({ scrollTop: top }, 1500);
     });
+    $(".contacts").on("click",function(){$(this).find(".contacts__block").fadeIn(),$(document).mouseup(function(t){var a=$(".contacts__block");
+a.is(t.target)||0!==a.has(t.target).length||a.hide()})})
 });
