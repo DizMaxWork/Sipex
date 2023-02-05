@@ -1,4 +1,14 @@
 $ (function() {
+  $(".bars").on("click",function(){
+    $(".mobile-menu").fadeIn();
+    //$(this).hide();
+    $(".mobile-menu__close").show();
+});
+$(".mobile-menu__close").on("click", function(){
+    $(".mobile-menu").fadeOut();
+    //$(this).hide();
+   // $(".bars").show();
+});
     $('.slider').slick({
     infinite: true,
     slidesToShow: 3,

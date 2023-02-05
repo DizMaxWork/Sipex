@@ -12,16 +12,55 @@
     <title>Sipex</title>
 </head>
 <body>
+    <div>
+        <div class="mobile-menu hidden">
+            <div class="sm:px-6 xs:h-16">
+                <div class="mobile-menu__close w-8 -mr-2 hidden ml-auto">
+                    <img src="img/burger-close.svg" alt="">
+                </div>
+            </div>
+            <div style="border-bottom: 1px solid #373737;"></div>
+            <div class="pt-8 sm:px-6 ">
+                <ul>
+                    <li class="mb-4 text-3xl">
+                        <a href="index.html">
+                            Главная
+                        </a>
+                    </li>
+                    <li class="mb-4 text-3xl">
+                        <a href="products.html">
+                            Продукция
+                        </a>
+                    </li>
+                    <li class="mb-4 text-3xl">
+                        <a href="home-project.html">
+                            Проекты
+                        </a>
+                    </li>
+                    <li class="mb-4 text-3xl">
+                        <a href="for-whom.html">
+                            Для клиентов
+                        </a>
+                    </li>
+                    <li class="mb-4 text-3xl">
+                        <a href="contacts.html">
+                            Контакты    
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <header>
         <div class="container mx-auto sm:px-5 px-4">
             <div class="flex items-center justify-between xl:py-0 py-2 xs:h-16 md:h-auto">
 
-                <div class="w-28 xl:block hidden pt-4">
+                <div class="w-28 pt-4">
                     <a href="#">
                         <img src="img/logo.svg" alt="">
                     </a>
                 </div>
-                <nav class="md:block hidden">
+                <nav class="xl:block hidden">
                     <ul class="-mx-3 md:flex hidden">
                         <li class="font-medium mx-3">
                             <a href="index.html" class="link hover-1">
@@ -51,15 +90,18 @@
                     </ul>
                 </nav>
 
-                <div class="bars md:hidden cursor-pointer" onclick="">
-                    <img src="img/burger.svg" alt="">
-                </div>
-                <div>
-                    <a href="tel:+3719999999">+371 999 99 99</a>
-                </div>
-                <div class="burger__menu hidden">
-                    <div>
+                <div class="flex items-center">
+                    <a href="tel:+3719999999" class="font-bold">+371 999 99 99</a>
+                    <button class="text-sm font-medium px-1 py-1 ml-5 btn-3">
+                        RU
+                    </button>
+                    <div class="bars xl:hidden cursor-pointer ml-6" onclick="">
+                        <img src="img/burger.svg" alt="">
+                    </div>
+                    <div class="burger__menu hidden">
+                        <div>
 
+                        </div>
                     </div>
                 </div>
             </div>
