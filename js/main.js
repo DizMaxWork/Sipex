@@ -1,13 +1,10 @@
 $ (function() {
   $(".bars").on("click",function(){
     $(".mobile-menu").fadeIn();
-    //$(this).hide();
     $(".mobile-menu__close").show();
 });
 $(".mobile-menu__close").on("click", function(){
     $(".mobile-menu").fadeOut();
-    //$(this).hide();
-   // $(".bars").show();
 });
     $('.slider').slick({
     infinite: true,
@@ -28,7 +25,36 @@ $(".mobile-menu__close").on("click", function(){
         slidesToScroll: 1,
         asNavFor: '.slider-for',
         focusOnSelect: true,
-        arrows: false
+        arrows: false,
+        responsive: [
+          {
+            breakpoint: 1440,
+            settings: {
+              slidesToShow: 7
+            }
+          },
+          {
+            breakpoint: 1200,
+            settings: {
+              slidesToShow: 6
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 5,
+            }
+          },
+          {
+            breakpoint: 576,
+            settings: {
+              slidesToShow: 3,
+            }
+          }
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ]
       });
       $(".slideto").on("click", function (event) {
         //отменяем стандартную обработку нажатия по ссылке

@@ -67,8 +67,20 @@ body{
 .next:hover{
     background: #EFEFEF;
 }
-.slider-item{
-    height: 624px;
+@media (min-width:576px) {
+    .slider-item{
+        height: 390px;
+    }
+}
+@media (min-width:768px) {
+    .slider-item{
+        height: 480px;
+    }
+}
+@media (min-width:1200px) {
+    .slider-item{
+        height: 624px;
+    }
 }
 .slider-item-2{
     width: 88px;
@@ -78,7 +90,22 @@ body{
     padding-top: 16px;
 }
 .slider-style{
-    width: 900px;
+    width: 300px;
+}
+@media (min-width:576px) {
+    .slider-style{
+        width: 560px;
+    }
+}
+@media (min-width:768px) {
+    .slider-style{
+        width: 700px;
+    }
+}
+@media (min-width:1440px) {
+    .slider-style{
+        width: 900px;
+    }
 }
 .slick-slide{
     padding-right: 21px;
