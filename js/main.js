@@ -12,13 +12,21 @@ $(".mobile-menu__close").on("click", function(){
     slidesToScroll: 1,
     prevArrow: "<img src='img/prev-arrow.svg' class='prev' alt='1'>",
     nextArrow: "<img src='img/next-arrow.svg' class='next' alt='2'>",
+    responsive: [
+      {
+        breakpoint: 1440,
+        settings: {
+          slidesToShow: 2
+        }
+      }]
     })
     $('.slider-for').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false,
         fade: true,
-        asNavFor: '.slider-nav'
+        asNavFor: '.slider-nav',
+        prevArrow: "<img src='img/prev-arrow.svg' class='prev-2' alt='1'>",
+        nextArrow: "<img src='img/next-arrow.svg' class='next-2' alt='2'>"
       });
       $('.slider-nav').slick({
         slidesToShow: 8,
