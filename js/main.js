@@ -6,10 +6,10 @@ $ (function() {
 $(".mobile-menu__close").on("click", function(){
     $(".mobile-menu").fadeOut();
 });
-    $('.slider').slick({
-    infinite: true,
+$('.slider').slick({
+    centerMode: true,
+    centerPadding: '20px',
     slidesToShow: 3,
-    slidesToScroll: 1,
     prevArrow: "<img src='img/prev-arrow.svg' class='prev' alt='1'>",
     nextArrow: "<img src='img/next-arrow.svg' class='next' alt='2'>",
     responsive: [
@@ -20,9 +20,17 @@ $(".mobile-menu__close").on("click", function(){
         }
       },
       {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 1,
+          centerPadding: '90px'
+        }
+      },
+      {
         breakpoint: 768,
         settings: {
-          slidesToShow: 1
+          slidesToShow: 1,
+          centerPadding: '10px'
         }
       }
     ]

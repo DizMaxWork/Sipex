@@ -37,8 +37,16 @@ body{
     background: #EFEFEF;
     border-radius: 33px;
 }
-.card-slide{
-    width: 416px;
+
+@media (min-width:320px) {
+    .card-slide{
+        width: 250px;
+    }
+}
+@media (min-width:576px) {
+    .card-slide{
+        width: 448px;
+    }
 }
 .slider {
     position: relative;
@@ -99,7 +107,7 @@ body{
     height: 72px;
 }
 .slider-style{
-    width: 300px;
+    width: 100%;
 }
 @media (min-width:576px) {
     .slider-style{
@@ -140,7 +148,6 @@ body{
 }
 .prev-2{
     position: relative;
-    top: 534px;
     margin-left: auto;
     right: 90px;
     z-index: 20;
@@ -149,6 +156,31 @@ body{
     padding: 10px ;
     transition: ease 0.5s;
     cursor: pointer;
+}
+@media  (min-width:320px){
+    .prev-2{
+        top: 152px;
+    }
+}
+@media  (min-width:375px){
+    .prev-2{
+        top: 189px;
+    }
+}
+@media  (min-width:576px){
+    .prev-2{
+        top: 362px;
+    }
+}
+@media  (min-width:768px){
+    .prev-2{
+        top: 452px;
+    }
+}
+@media  (min-width:1200px){
+    .prev-2{
+        top: 534px;
+    }
 }
 .prev-2:hover{
     background: #EFEFEF;
