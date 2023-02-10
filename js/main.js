@@ -14,7 +14,7 @@ $('.slider').slick({
     nextArrow: "<img src='img/next-arrow.svg' class='next' alt='2'>",
     responsive: [
       {
-        breakpoint: 1440,
+        breakpoint: 1200,
         settings: {
           slidesToShow: 2
         }
@@ -23,16 +23,30 @@ $('.slider').slick({
         breakpoint: 992,
         settings: {
           slidesToShow: 1,
-          centerPadding: '90px'
+          centerPadding: '120px'
         }
       },
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 1,
+          centerPadding: '30px'
+        }
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
           centerPadding: '10px'
         }
-      }
+      },
+      {
+        breakpoint: 340,
+        settings: {
+          slidesToShow: 1,
+          centerMode: false
+        }
+      },
     ]
     })
     $('.slider-for').slick({

@@ -37,20 +37,59 @@ body{
     background: #EFEFEF;
     border-radius: 33px;
 }
-
 @media (min-width:320px) {
     .card-slide{
-        width: 250px;
+        width: 288px;
     }
 }
 @media (min-width:576px) {
     .card-slide{
+        width: 407px;
+    }
+}
+@media (min-width:768px) {
+    .card-slide{
         width: 448px;
+    }
+}
+@media (min-width:1200px) {
+    .card-slide{
+        width: 363px;
+    }
+}
+@media (min-width:1440px) {
+    .card-slide{
+        width: 430px;
     }
 }
 .slider {
     position: relative;
     padding: 48px 0 0 0;
+}
+@media (min-width:375px) {
+    .slider{
+        margin-left: -9px;
+    }
+}
+@media (min-width:576px) {
+    .slider{
+        margin-left: -28px;
+    }
+}
+@media (min-width:768px) {
+    .slider{
+        margin-left: -125px;
+    }
+}
+@media (min-width:992px) {
+    .slider{
+        margin-left: -19px;
+    }
+}
+@media (min-width:1200px) {
+    .slider{
+        margin-left: -20px;
+    }
 }
 .slider .slick-arrow{
     position: absolute;
@@ -64,10 +103,35 @@ body{
     padding: 4px;
 }
 .prev{
-    left: 90%;
+    left: 81%;
     border: 1px solid #EFEFEF;
     border-radius: 10px;
     transition: ease 0.5s;
+}
+@media (min-width:576px) {
+    .prev{
+        left: 86%;
+    }
+}
+@media (min-width:768px) {
+    .prev{
+        left: 88%;
+    }
+}
+@media (min-width:992px) {
+    .prev{
+        left: 88%;
+    }
+}
+@media (min-width:1200px) {
+    .prev{
+        left: 89%;
+    }
+}
+@media (min-width:1440px) {
+    .prev{
+        left: 90%;
+    }
 }
 .prev:hover{
     background: #EFEFEF;
@@ -134,7 +198,7 @@ body{
     padding: 0 16px 16px 16px;
     color: #373737;
     background-color: #FBFBFB;
-    z-index: 1;
+    z-index: 10000000000;
 }
 .contacts__block {
     width: 15.625rem;
@@ -199,4 +263,26 @@ body{
 }
 .next-2:hover{
     background: #EFEFEF;
+}
+.card-hover{
+    transition: border ease 0.5s;
+}
+.card-hover:hover{
+    border: none;
+    box-shadow: 6px 7px 25px rgba(0, 0, 0, 0.15);
+}
+.header-hover{
+    transition: ease-in-out 0.1s;
+}
+.header-hover:hover{
+    font-weight: 600;
+}
+.link:focus{
+    font-weight: 600;
+}
+.border-hover{
+    transition: border 0.2s ease-in-out;
+}
+.border-hover:hover{
+    border-color: #FF8A00;
 }
