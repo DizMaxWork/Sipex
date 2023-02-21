@@ -298,3 +298,6 @@ body{
 tr:nth-child(2n)  td{
     background: #F5F5F5;
 }
+table{
+    overflow: scroll;
+}
