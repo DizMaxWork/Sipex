@@ -301,3 +301,6 @@ tr:nth-child(2n)  td{
 table{
     overflow: scroll;
 }
+.br-36{
+    border-radius: 36px;
+}
