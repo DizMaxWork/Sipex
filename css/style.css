@@ -290,7 +290,16 @@ body{
     background: url(../img/31.png);
     background-repeat: no-repeat;
     background-position: right;
-    height: 256px;
+}
+.bg-img3{
+    background: url(../img/32.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.bg-img4{
+    background: url(../img/33.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .vdffg{
     background: linear-gradient(91.09deg, #FFFFFF 72.46%, rgba(244, 244, 244, 0.04) 101.9%);;
@@ -303,4 +312,7 @@ table{
 }
 .br-36{
     border-radius: 36px;
+}
+.thanks-cls{
+    width: 30px;
 }
