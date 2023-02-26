@@ -302,19 +302,34 @@ body{
     background-position: right;
 }
 .bg-img-5{
+    background: none;
+}
+@media (min-width:1200px) {
+    .bg-img-5{
     background: url(../img/34.png);
     background-repeat: no-repeat;
     background-position: right;
+    } 
 }
 .bg-img-6{
+    background: none;
+}
+@media (min-width:1200px) {
+    .bg-img-6{
     background: url(../img/35.png);
     background-repeat: no-repeat;
     background-position: right;
+    } 
 }
 .bg-img-7{
+    background: none;
+}
+@media (min-width:1200px) {
+    .bg-img-7{
     background: url(../img/36.png);
     background-repeat: no-repeat;
     background-position: right;
+    } 
 }
 .vdffg{
     background: linear-gradient(91.09deg, #FFFFFF 72.46%, rgba(244, 244, 244, 0.04) 101.9%);;
