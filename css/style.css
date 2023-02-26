@@ -331,3 +331,9 @@ table{
 .thanks-cls{
     width: 30px;
 }
+.language{
+    transition: height ease-in-out 0.5s;
+}
+.language:hover{
+    height: 77px;
+}
