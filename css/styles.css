@@ -1079,6 +1079,11 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .px-2\.5 {
   padding-left: 0.625rem;
   padding-right: 0.625rem;
@@ -1180,6 +1185,10 @@ video {
 
 .pl-5 {
   padding-left: 1.25rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
 }
 
 .text-center {
@@ -1513,6 +1522,11 @@ video {
     padding-bottom: 1.5rem;
   }
 
+  .md\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
   .md\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
@@ -1526,6 +1540,11 @@ video {
   .md\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+
+  .md\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .md\:pt-4 {
@@ -1558,6 +1577,10 @@ video {
 
   .md\:pb-10 {
     padding-bottom: 2.5rem;
+  }
+
+  .md\:pr-4 {
+    padding-right: 1rem;
   }
 
   .md\:text-base {
@@ -1663,6 +1686,11 @@ video {
     padding-right: 2.25rem;
   }
 
+  .lg\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
   .lg\:pb-10 {
     padding-bottom: 2.5rem;
   }
@@ -1724,16 +1752,12 @@ video {
     display: none;
   }
 
-  .xl\:h-\[409px\] {
-    height: 409px;
+  .xl\:h-\[404px\] {
+    height: 404px;
   }
 
   .xl\:h-\[431px\] {
     height: 431px;
-  }
-
-  .xl\:h-\[404px\] {
-    height: 404px;
   }
 
   .xl\:w-2\/5 {

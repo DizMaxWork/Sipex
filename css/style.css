@@ -287,19 +287,30 @@ body{
     border-color: #FF8A00;
 }
 .bg-img2{
-    background: url(../img/31.png);
-    background-repeat: no-repeat;
-    background-position: right;
+    background: none;
 }
 .bg-img3{
-    background: url(../img/32.png);
-    background-repeat: no-repeat;
-    background-position: right;
+    background: none;
 }
 .bg-img4{
-    background: url(../img/33.png);
-    background-repeat: no-repeat;
-    background-position: right;
+    background: none;
+}
+@media (min-width:1200px) {
+    .bg-img2{
+        background: url(../img/31.png);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .bg-img3{
+        background: url(../img/32.png);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .bg-img4{
+        background: url(../img/33.png);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
 }
 .bg-img-5{
     background: none;
