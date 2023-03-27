@@ -320,6 +320,7 @@ body{
     background: url(../img/34.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-size: contain;
     } 
 }
 .bg-img-6{
@@ -330,6 +331,7 @@ body{
     background: url(../img/35.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-size: contain;
     } 
 }
 .bg-img-7{
@@ -340,6 +342,7 @@ body{
     background: url(../img/36.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-size: contain;
     } 
 }
 .vdffg{
